@@ -12,3 +12,4 @@ typedef LdFormFieldBuilder<TModel, TView>
 typedef LdFormSubmitBuilder = ReactiveFormConsumerBuilder;
 typedef LdFormValidator<T> = Validator<T>;
 typedef LdFormValidators = Validators;
+typedef LdFormGroup = FormGroup;
