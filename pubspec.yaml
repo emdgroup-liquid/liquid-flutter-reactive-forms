@@ -1,5 +1,5 @@
 name: liquid_flutter_reactive_forms
-description: "A new Flutter package project."
+description: "A companion package to liquid_flutter that provides extensions for reactive_forms"
 version: 0.0.1
 homepage: https://github.com/emdgroup-liquid/liquid-flutter
 
