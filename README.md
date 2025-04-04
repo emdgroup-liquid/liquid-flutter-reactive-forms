@@ -14,3 +14,7 @@ To simply install run
 ```sh
 flutter pub add liquid_flutter liquid_flutter_reactive_forms
 ```
+
+## License
+
+This project is licensed under the Apache-2.0 license. See the [LICENSE](LICENSE) file for details.
