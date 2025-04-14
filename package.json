@@ -1,6 +1,6 @@
 {
   "name": "liquid-flutter-reactive-forms",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A companion package to liquid_flutter that provides extensions for reactive_forms",
   "scripts": {
     "test": "flutter test"
