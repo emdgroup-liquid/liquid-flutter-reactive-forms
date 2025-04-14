@@ -11,26 +11,26 @@ class LdFormSubmitConfig extends LdSubmitConfig {
   LdFormSubmitConfig({
     super.loadingText,
     super.submitText,
-    super.allowRetry,
     super.allowResubmit,
     super.withHaptics,
     super.autoTrigger,
     super.timeout,
     super.allowCancel,
     super.onCanceled,
+    super.retryConfig,
   }) : super(action: () async {});
 
   LdSubmitConfig<T> copyWithAction<T>(LdSubmitCallback<T> action) {
     return LdSubmitConfig<T>(
       loadingText: loadingText,
       submitText: submitText,
-      allowRetry: allowRetry,
       allowResubmit: allowResubmit,
       withHaptics: withHaptics,
       autoTrigger: autoTrigger,
       timeout: timeout,
       allowCancel: allowCancel,
       onCanceled: onCanceled,
+      retryConfig: retryConfig,
       action: action,
     );
   }

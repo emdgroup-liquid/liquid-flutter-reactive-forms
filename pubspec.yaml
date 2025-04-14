@@ -10,7 +10,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  liquid_flutter: ^18.2.0
+  liquid_flutter: ^21.0.0
   reactive_forms: ^17.0.1
 
 dev_dependencies:
