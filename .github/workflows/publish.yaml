@@ -1,8 +1,8 @@
-name: "Release Main"
+name: "Release Master"
 on:
   push:
     branches:
-      - main
+      - master
 jobs:
   release_liquid_flutter:
     runs-on: ubuntu-latest
@@ -67,7 +67,7 @@ jobs:
         run: flutter pub publish --dry-run
 
       - run: |
-          git push origin main
+          git push origin master
 
       - name: 🪵 Extract changelog for current version
         uses: actions/github-script@v7
