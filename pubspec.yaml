@@ -9,8 +9,8 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
-  liquid_flutter: ^21.0.0
-  reactive_forms: ^17.0.1
+  liquid_flutter: ">=21.0.0 <23.0.0"
+  reactive_forms: ">=17.0.1 <19.0.0"
 dev_dependencies:
   flutter_test:
     sdk: flutter
